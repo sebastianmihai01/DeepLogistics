@@ -25,6 +25,5 @@ print('coefficient of determination:', r_sq)
 print('intercept:', intercept)
 intercept: 0.8430556452395734
 print('coefficients:', coefficients, sep='\n')
-coefficients:
 [ 2.44828275  0.16160353 -0.15259677  0.47928683 -0.4641851 ]
 print('predicted response:', y_pred, sep='\n')
