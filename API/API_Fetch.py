@@ -1,7 +1,7 @@
 import datetime
 import json
 import sys
-import traceback
+
 import requests
 
 
@@ -55,7 +55,6 @@ def fetch(url, params):
             except:
                 pass
         finally:
-            traceback.print_exception(*exc_info)
             del exc_info
 
 
