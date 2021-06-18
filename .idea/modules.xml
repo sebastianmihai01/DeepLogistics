@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DeepLogistics.iml" filepath="$PROJECT_DIR$/.idea/DeepLogistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SelfDrivingCar.iml" filepath="$PROJECT_DIR$/.idea/SelfDrivingCar.iml" />
     </modules>
   </component>
 </project>
