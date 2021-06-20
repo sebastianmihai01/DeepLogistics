@@ -1,0 +1,20 @@
+1.Introduction & Structure
+-
+
+Self Driving Car using Python & Kivy (Also see section 'Technologies & Algorithms')
+
+1. ai.py = neural network of the car (brain)
+
+2. car.kv = kivy file to model the environment (car, balls ...)
+   - Ball 1,2,3 are the sensors of the car
+   - Game object - connects all the objects together (e.g. to glue the sensors to the car)
+
+3. map.py = the main file of the project
+          = the code that makes the entire environment
+
+___________________________________________________________________
+
+2.How do I train the car (to drive itself & avoid obstacles)
+- Main goal: stick to the road
+- Punish (negative reward) the car when it goes into the walls
+-
